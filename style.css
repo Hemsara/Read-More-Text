@@ -8,7 +8,7 @@
 .container {
   height: 100vh;
   font-family: "Roboto", sans-serif;
-  background-color: rgb(241, 241, 241);
+  background-color: rgb(245, 245, 245);
   /* align our card center horizontally and vertically */
   display: flex;
   justify-content: center;
@@ -40,7 +40,8 @@ hr {
 }
 
 #btn-read {
+  margin-top: 10px;
   font-weight: 500;
-  color: rgb(131, 131, 131);
+  color: rgb(0, 0, 0);
   cursor: pointer;
 }
