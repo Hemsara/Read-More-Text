@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(241, 241, 241);
+  /* align our card center horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* --------------------------------------------------*/
+}
+
+.card {
+  height: auto;
+  width: 400px;
+  background-color: white;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.author {
+  color: rgb(10, 10, 165);
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-bottom: 10px;
+}
+
+#btn-read {
+  font-weight: 500;
+  color: rgb(131, 131, 131);
+  cursor: pointer;
+}
